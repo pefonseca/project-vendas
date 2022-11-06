@@ -36,10 +36,10 @@ public class VendasApplication {
             System.out.println("\nBuscando Clientes Por Nome.");
             clientes.findByName("Ped").forEach(System.out::println);
 
-//            System.out.println("\nDeletando Clientes.");
-//            clientes.findAll().forEach(c -> {
-//                clientes.deletar(c);
-//            });
+            System.out.println("\nDeletando Clientes.");
+            clientes.findAll().forEach(c -> {
+                clientes.deletar(c);
+            });
 
             clienteList = clientes.findAll();
 
